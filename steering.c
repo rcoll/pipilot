@@ -4,7 +4,7 @@
  * @return void
  */
 void set_rudder_angle( int angle ) {
-	print_to_screen( "coursehold", "set rudder angle", angle );
+	print_to_screen( "global", "set rudder angle", angle );
 
 	if ( angle > 0 ) {
 		digitalWrite( PIN_RELAY_RIGHT, 1 );
