@@ -6,7 +6,7 @@
 int get_rudder_angle() {
 	int current_rudder_angle = 0;
 
-	print_to_screen( "coursehold", "current rudder angle", current_rudder_angle );
+	print_to_screen( "global", "current rudder angle", current_rudder_angle );
 
 	return current_rudder_angle;
 }

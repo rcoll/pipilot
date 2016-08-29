@@ -36,7 +36,7 @@ int get_actual_heading() {
 	// foo
 	// bar
 
-	print_to_screen( "coursehold", "uncalibrated heading", uncalibrated );
+	print_to_screen( "global", "uncalibrated heading", uncalibrated );
 
 	// Return 
 	return uncalibrated;

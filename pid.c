@@ -173,3 +173,7 @@ int coursehold_pid( int selected_course, int actual_heading, int current_rudder_
 int ellipse_pid( int selected_radius, int current_rudder_angle ) {
 	return 0;
 }
+
+int plotter_pid( int selected_route ) {
+	return 0;
+}

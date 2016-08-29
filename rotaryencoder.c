@@ -87,7 +87,7 @@ int get_selected_course() {
 	if ( encodervalue <= 0 )
 		encodervalue = 1;
 
-	print_to_screen( "coursehold", "get selected course", selected_course );
+	print_to_screen( "global", "get selected course", selected_course );
 	
 	return selected_course;
 }

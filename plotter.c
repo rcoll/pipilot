@@ -16,7 +16,7 @@ void pipilot_run_plotter() {
 		int current_rudder_angle = get_rudder_angle();
 
 		// PID
-		int new_rudder_angle = ellipse_pid( selected_radius, current_rudder_angle );
+		int new_rudder_angle = plotter_pid( 0 );
 
 		// Change rudder
 		set_rudder_angle( new_rudder_angle );
